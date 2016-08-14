@@ -36,10 +36,7 @@
     // and pass the tree options as an argument to the dynatree() function:
     $("#tree").fancytree({
 //          autoCollapse: true,
-    source: {
-    url: "/getTreeData",
-    cache: false
-  },
+    
       minExpandLevel: 1,
       postinit: function(isReloading, isError) {
         this.reactivate();
